@@ -1,0 +1,158 @@
+{
+  "how": {
+    "precision": 0.8888888888888888,
+    "recall": 1.0,
+    "f1-score": 0.9411764705882353,
+    "support": 24
+  },
+  "bff": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 17
+  },
+  "filme": {
+    "precision": 0.6666666666666666,
+    "recall": 1.0,
+    "f1-score": 0.8,
+    "support": 4
+  },
+  "religiao": {
+    "precision": 0.9444444444444444,
+    "recall": 1.0,
+    "f1-score": 0.9714285714285714,
+    "support": 17
+  },
+  "esporte": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6
+  },
+  "relationship": {
+    "precision": 0.9,
+    "recall": 1.0,
+    "f1-score": 0.9473684210526316,
+    "support": 9
+  },
+  "linguagens": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 14
+  },
+  "signo": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 3
+  },
+  "live": {
+    "precision": 0.8125,
+    "recall": 1.0,
+    "f1-score": 0.896551724137931,
+    "support": 13
+  },
+  "me": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6
+  },
+  "piada": {
+    "precision": 0.7777777777777778,
+    "recall": 1.0,
+    "f1-score": 0.8750000000000001,
+    "support": 7
+  },
+  "playlist": {
+    "precision": 0.875,
+    "recall": 1.0,
+    "f1-score": 0.9333333333333333,
+    "support": 7
+  },
+  "filhos": {
+    "precision": 0.9090909090909091,
+    "recall": 1.0,
+    "f1-score": 0.9523809523809523,
+    "support": 10
+  },
+  "license": {
+    "precision": 0.7777777777777778,
+    "recall": 1.0,
+    "f1-score": 0.8750000000000001,
+    "support": 14
+  },
+  "comida": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 17
+  },
+  "triste": {
+    "precision": 0.7777777777777778,
+    "recall": 1.0,
+    "f1-score": 0.8750000000000001,
+    "support": 7
+  },
+  "historia": {
+    "precision": 0.75,
+    "recall": 1.0,
+    "f1-score": 0.8571428571428571,
+    "support": 6
+  },
+  "where": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 3
+  },
+  "cpf": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6
+  },
+  "cor": {
+    "precision": 0.8666666666666667,
+    "recall": 1.0,
+    "f1-score": 0.9285714285714286,
+    "support": 13
+  },
+  "genero": {
+    "precision": 1.0,
+    "recall": 0.9375,
+    "f1-score": 0.967741935483871,
+    "support": 16
+  },
+  "hobby": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 11
+  },
+  "starwars": {
+    "precision": 0.7368421052631579,
+    "recall": 1.0,
+    "f1-score": 0.8484848484848484,
+    "support": 14
+  },
+  "micro avg": {
+    "precision": 0.8933823529411765,
+    "recall": 0.9959016393442623,
+    "f1-score": 0.9418604651162791,
+    "support": 244
+  },
+  "macro avg": {
+    "precision": 0.8992796962762637,
+    "recall": 0.9972826086956522,
+    "f1-score": 0.9421382844610722,
+    "support": 244
+  },
+  "weighted avg": {
+    "precision": 0.9048942564122676,
+    "recall": 0.9959016393442623,
+    "f1-score": 0.9451561337279859,
+    "support": 244
+  }
+}

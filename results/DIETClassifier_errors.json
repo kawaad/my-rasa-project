@@ -1,0 +1,341 @@
+[
+  {
+    "text": "qual é o seu deus?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "religiao",
+        "start": 13,
+        "end": 17,
+        "extractor": "DIETClassifier",
+        "value": "deus"
+      }
+    ]
+  },
+  {
+    "text": "quero conselhos do yoda",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "starwars",
+        "start": 19,
+        "end": 23,
+        "extractor": "DIETClassifier",
+        "value": "yoda"
+      }
+    ]
+  },
+  {
+    "text": "guerra nas estrelas",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "starwars",
+        "start": 0,
+        "end": 19,
+        "extractor": "DIETClassifier",
+        "value": "guerra nas estrelas"
+      }
+    ]
+  },
+  {
+    "text": "jedi",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "starwars",
+        "start": 0,
+        "end": 4,
+        "extractor": "DIETClassifier",
+        "value": "jedi"
+      }
+    ]
+  },
+  {
+    "text": "como você é",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "how",
+        "start": 0,
+        "end": 11,
+        "extractor": "DIETClassifier",
+        "value": "como você é"
+      }
+    ]
+  },
+  {
+    "text": "me conta uma piada",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "piada",
+        "start": 13,
+        "end": 18,
+        "extractor": "DIETClassifier",
+        "value": "piada"
+      }
+    ]
+  },
+  {
+    "text": "me fala uma piada",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "piada",
+        "start": 12,
+        "end": 17,
+        "extractor": "DIETClassifier",
+        "value": "piada"
+      }
+    ]
+  },
+  {
+    "text": "você é um software livre",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "license",
+        "start": 10,
+        "end": 24,
+        "extractor": "DIETClassifier",
+        "value": "software livre"
+      }
+    ]
+  },
+  {
+    "text": "vc é um software livre",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "license",
+        "start": 8,
+        "end": 22,
+        "extractor": "DIETClassifier",
+        "value": "software livre"
+      }
+    ]
+  },
+  {
+    "text": "onde voce mora",
+    "entities": [
+      {
+        "start": 10,
+        "end": 14,
+        "value": "mora",
+        "entity": "live"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "live",
+        "start": 0,
+        "end": 4,
+        "extractor": "DIETClassifier",
+        "value": "onde"
+      },
+      {
+        "entity": "live",
+        "start": 10,
+        "end": 14,
+        "extractor": "DIETClassifier",
+        "value": "mora"
+      }
+    ]
+  },
+  {
+    "text": "onde voce vive",
+    "entities": [
+      {
+        "start": 10,
+        "end": 14,
+        "value": "vive",
+        "entity": "live"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "live",
+        "start": 0,
+        "end": 4,
+        "extractor": "DIETClassifier",
+        "value": "onde"
+      },
+      {
+        "entity": "live",
+        "start": 10,
+        "end": 14,
+        "extractor": "DIETClassifier",
+        "value": "vive"
+      }
+    ]
+  },
+  {
+    "text": "voce e mulher",
+    "entities": [
+      {
+        "start": 7,
+        "end": 13,
+        "value": "mulher",
+        "entity": "genero"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "me indica uma playlist",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "playlist",
+        "start": 14,
+        "end": 22,
+        "extractor": "DIETClassifier",
+        "value": "playlist"
+      }
+    ]
+  },
+  {
+    "text": "qual a sua cor",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "cor",
+        "start": 11,
+        "end": 14,
+        "extractor": "DIETClassifier",
+        "value": "cor"
+      }
+    ]
+  },
+  {
+    "text": "cor preferida",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "cor",
+        "start": 4,
+        "end": 13,
+        "extractor": "DIETClassifier",
+        "value": "preferida"
+      }
+    ]
+  },
+  {
+    "text": "você tem namorado",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "relationship",
+        "start": 9,
+        "end": 17,
+        "extractor": "DIETClassifier",
+        "value": "namorado"
+      }
+    ]
+  },
+  {
+    "text": "você é pai de quantos filhos",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "filhos",
+        "start": 22,
+        "end": 28,
+        "extractor": "DIETClassifier",
+        "value": "filhos"
+      }
+    ]
+  },
+  {
+    "text": "qual seu filme preferido",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "filme",
+        "start": 9,
+        "end": 14,
+        "extractor": "DIETClassifier",
+        "value": "filme"
+      }
+    ]
+  },
+  {
+    "text": "melhor filme",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "filme",
+        "start": 7,
+        "end": 12,
+        "extractor": "DIETClassifier",
+        "value": "filme"
+      }
+    ]
+  },
+  {
+    "text": "tô muito triste",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "triste",
+        "start": 9,
+        "end": 15,
+        "extractor": "DIETClassifier",
+        "value": "triste"
+      }
+    ]
+  },
+  {
+    "text": "tô triste",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "triste",
+        "start": 3,
+        "end": 9,
+        "extractor": "DIETClassifier",
+        "value": "triste"
+      }
+    ]
+  },
+  {
+    "text": "conta uma historia pra dormir",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "historia",
+        "start": 10,
+        "end": 18,
+        "extractor": "DIETClassifier",
+        "value": "historia"
+      }
+    ]
+  },
+  {
+    "text": "me conta uma historinha",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "historia",
+        "start": 13,
+        "end": 23,
+        "extractor": "DIETClassifier",
+        "value": "historinha"
+      }
+    ]
+  },
+  {
+    "text": "como voce esta",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "live",
+        "start": 10,
+        "end": 14,
+        "extractor": "DIETClassifier",
+        "value": "esta"
+      }
+    ]
+  }
+]

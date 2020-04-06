@@ -1,0 +1,70 @@
+intents:
+  - cumprimentar
+  - despedir
+  - afirmar
+  - negar
+  - bem
+  - triste
+  - agradecer
+  - bot_challenge
+
+entities:
+  - triste
+  - feliz
+
+responses:
+  utter_bem:
+  - text: "Como você está?"
+
+  utter_cumprimentar:
+  - text: "Oi, eu sou um chatbot!\nUhuu!\n\n"
+
+  utter_anime_se:
+  - text: "Aqui está algo para animá-lo:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_triste:
+  - text: "Deixa a tristeza pra lá\n\nAguenta firme, que a vida vai\
+      \ melhorar\n"
+  - text: "Sinto muito =/\n\nSe houver algo em que possa te ajudar\n\nÉ só falar!!\
+      \ =)\n"
+
+  utter_isso_ajudou:
+  - text: "Isso te ajudou?"
+
+  utter_disponha:
+  - text: "Disponha! :D"
+
+  utter_feliz:
+  - text: "Ótimo, continue assim!"
+
+  utter_poxa:
+  - text: "Poxa, que pena que eu não pude te ajudar nisso... :(\nMesmo assim, espero que você fique bem!\n"
+  
+  utter_continuar_conversa:
+  - text: "E aí, como posso te ajudar?"
+
+  utter_continuar_conversa2:
+  - text: "Quer conversar sobre outra coisa?"
+
+  utter_continuar_conversa3:
+  - text: "Gostaria de continuar a nossa conversa ou melhor não?"
+
+  utter_continuar_conversa4:
+  - text: "E aí, qual o nosso próximo assunto?"
+
+  utter_tchau:
+  - text: "Espero ter te ajudado até aqui.\nTchau!"
+  - text: "Espero ter te ajudado até aqui.\nAté mais"
+  - text: "Espero ter te ajudado até aqui.\nAté a próxima!"
+
+  utter_tchau2:
+  - text: "Certo então! Espero ter te ajudado até aqui.\nTchau tchau :D"
+  - text: "Tudo bem então, conversamos outra hora...\nEspero ter te ajudado até aqui.\nAté mais!"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
