@@ -58,6 +58,8 @@
 - [Felicidade](feliz)
 - A [felicidade](feliz) me consome
 - Estou [bem](feliz)
+- estou bem
+- Estou bem
 - Estou muito [bem](feliz)
 - [felicidade](feliz)
 - estou [animada](feliz)
@@ -96,11 +98,11 @@
 
 ## intent:bot_challenge
 - você
-- are you a human?
-- am I talking to a bot?
-- am I talking to a human?
+- você é humano?
+- estou falando com um bot?
+- estou falando com um humano?
 
-## intent:busca
-- busca
-- pesquisar
-- gostaria de fazer uma 
+## intent:testecustom
+- test12
+- karamba
+- rihanna

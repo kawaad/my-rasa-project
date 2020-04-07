@@ -7,10 +7,16 @@ intents:
   - triste
   - agradecer
   - bot_challenge
+  - buscar
+  - testecustom
 
 entities:
   - triste
   - feliz
+  - buscar
+
+actions:
+  - testecustom_program
 
 responses:
   utter_bem:
