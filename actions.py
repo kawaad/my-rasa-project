@@ -8,11 +8,8 @@
 # This is a simple example for a custom action which utters "Hello World!"
 
 from typing import Any, Text, Dict, List
-#
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
-#
-#
 
 class testecustom_program(Action):
 
@@ -27,7 +24,6 @@ class testecustom_program(Action):
 
         return []
 
-
 # class ActionHelloWorld(Action):
 #
 #     def name(self) -> Text:
@@ -40,4 +36,3 @@ class testecustom_program(Action):
 #         dispatcher.utter_message(text="Hello World!")
 #
 #         return []
-
