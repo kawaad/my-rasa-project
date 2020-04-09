@@ -7,7 +7,7 @@
 * bem
   - utter_feliz
   - utter_continuar_conversa2
-
+ 
 ## triste path
 * triste
   - utter_triste
@@ -62,4 +62,8 @@
 
 ## custom action teste
 * testecustom
+  - testecustom_program
+
+## custom action ultima
+* ultimanoticia
   - testecustom_program

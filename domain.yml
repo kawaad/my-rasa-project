@@ -9,16 +9,26 @@ intents:
   - bot_challenge
   - buscar
   - testecustom
+  - ultimanoticia 
 
 entities:
   - triste
   - feliz
   - buscar
+  - LINK
 
 actions:
   - testecustom_program
+  - utter_site
 
-responses:
+slots:
+  LINK:
+    type: text
+
+templates:
+  utter_site:
+    - text: Aqui está a última notícia do IFB {link}
+
   utter_bem:
   - text: "Como você está?"
 

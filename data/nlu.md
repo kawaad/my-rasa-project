@@ -106,3 +106,10 @@
 - test12
 - karamba
 - rihanna
+
+## intent:ultimanoticia
+- me informe a última notícia do [site](LINK)
+- me informe a última notícia do site
+- IFB última notícia
+- notícia IFB
+- última notícia

@@ -13,16 +13,18 @@ from rasa_sdk.executor import CollectingDispatcher
 
 class testecustom_program(Action):
 
-    def name(self) -> Text:
-        return "testecustom_program"
+	def name(self) -> Text:
+		return "testecustom_program"
+	def run(self, dispatcher: CollectingDispatcher,
+			tracker: Tracker,
+			domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
-    def run(self, dispatcher: CollectingDispatcher,
-            tracker: Tracker,
-            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-
-        dispatcher.utter_message(text="This is a custom action > Hello World!")
-
-        return []
+	
+		Link="https://www.ifb.edu.br/brasilia/noticiasbrasilia"
+		#print("Link: ",tracker.get_slot('LINK'))
+		#dispatcher.utter_message(utter_site,Link)
+		dispatcher.utter_template("utter_site",tracker,link=Link)
+		return []
 
 # class ActionHelloWorld(Action):
 #
