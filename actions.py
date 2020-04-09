@@ -10,6 +10,8 @@
 from typing import Any, Text, Dict, List
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
+from urllib.request import urlopen
+from bs4 import BeautifulSoup
 
 class testecustom_program(Action):
 
@@ -18,14 +20,17 @@ class testecustom_program(Action):
 	def run(self, dispatcher: CollectingDispatcher,
 			tracker: Tracker,
 			domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-
-	
-		Link="https://www.ifb.edu.br/brasilia/noticiasbrasilia"
+		url = urlopen("https://www.ifb.edu.br/brasilia/noticiasbrasilia")
+		soup = BeautifulSoup(url.read(), "html.parser")
+		link_noticia = []
+		for item in soup.select(".tileHeadline"):
+			link = ("https://www.ifb.edu.br/brasilia/noticiasbrasilia" + item.a.get('href'))
+			link_noticia.append(link)
+		Link=link_noticia[0]
 		#print("Link: ",tracker.get_slot('LINK'))
 		#dispatcher.utter_message(utter_site,Link)
 		dispatcher.utter_template("utter_site",tracker,link=Link)
 		return []
-
 # class ActionHelloWorld(Action):
 #
 #     def name(self) -> Text:

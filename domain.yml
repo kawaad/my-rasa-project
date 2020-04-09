@@ -27,7 +27,10 @@ slots:
 
 templates:
   utter_site:
-    - text: Aqui está a última notícia do IFB {link}
+    - text: "Aqui está a última notícia do IFB {link}\nIsso te ajudou?"
+
+  utter_cont_site:
+    - text: "Ótimo, deseja mais alguma coisa?"
 
   utter_bem:
   - text: "Como você está?"

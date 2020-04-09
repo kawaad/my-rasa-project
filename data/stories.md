@@ -64,6 +64,14 @@
 * testecustom
   - testecustom_program
 
-## custom action ultima
+## custom action ultima 1
 * ultimanoticia
   - testecustom_program
+* afirmar
+  - utter_cont_site
+
+## custom action ultima 2
+* ultimanoticia
+  - testecustom_program
+* negar
+  - utter_tchau

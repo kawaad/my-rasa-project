@@ -109,7 +109,7 @@
 
 ## intent:ultimanoticia
 - me informe a última notícia do [site](LINK)
-- me informe a última notícia do site
+- me informe a última notícia do site [ifb](LINK)
 - IFB última notícia
-- notícia IFB
+- notícia [IFB](LINK)
 - última notícia
