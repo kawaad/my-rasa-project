@@ -1,77 +1,38 @@
 ## cumprimenta path
 * cumprimentar
   - utter_cumprimentar
-  - utter_bem
 
 ## feliz path
 * bem
   - utter_feliz
+  - utter_continuar_conversa
+
+## agradecer path
+* agradecer
+  - utter_disponha
   - utter_continuar_conversa2
- 
+
 ## triste path
 * triste
-  - utter_triste
-  - utter_anime_se
-  - utter_isso_ajudou
+  - utter_continuar_conversa
+
+## afirmacao path
 * afirmar
-  - utter_feliz
   - utter_continuar_conversa2
-* afirmar
-  - utter_continuar_conversa4
 
-## triste path 2
-* triste
-  - utter_triste
-  - utter_anime_se
-  - utter_isso_ajudou
-* afirmar
-  - utter_feliz
-  - utter_continuar_conversa2
+## negacao path
 * negar
-  - utter_tchau2
-
-## triste path 3
-* triste
-  - utter_triste
-  - utter_anime_se
-  - utter_isso_ajudou
-* negar
-  - utter_poxa
-  - utter_continuar_conversa3
-* negar
-  - utter_tchau2
-
-## triste path 3
-* triste
-  - utter_triste
-  - utter_anime_se
-  - utter_isso_ajudou
-* negar
-  - utter_poxa
-  - utter_continuar_conversa3
-* afirmar
-  - utter_continuar_conversa4
+  - utter_negar
 
 ## dizer tchau
 * despedir
   - utter_tchau
 
-## bot challenge
-* bot_challenge
-  - utter_iamabot
+## quemsou_bot path
+* quemsou_bot
+  - utter_chatbot
+  - utter_continuar_conversa
 
-## custom action teste
-* testecustom
-  - testecustom_program
-
-## custom action ultima 1
+## custom ultima noticia
 * ultimanoticia
-  - testecustom_program
-* afirmar
-  - utter_cont_site
-
-## custom action ultima 2
-* ultimanoticia
-  - testecustom_program
-* negar
-  - utter_tchau
+  - ultima_noticia

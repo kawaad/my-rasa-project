@@ -2,6 +2,7 @@
 - olá
 - Ola
 - Oi
+- oi
 - bom dia
 - Bom dia
 - boa tarde
@@ -18,15 +19,6 @@
 - até mais
 - flw
 - flws
-
-## intent:agradecer
-- obrigada
-- Obrigada
-- obrigado
-- Obrigado
-- valeu
-- Valeu
-- vlw
 
 ## intent:afirmar
 - sim
@@ -51,6 +43,25 @@
 - nenhum
 - nunca
 - jamais
+- em mais nada
+- nada
+
+## intent:agradecer
+- [obrigada](agradecimento)
+- obrigada!
+- obrigada
+- muito [obrigada](agradecimento)
+- [Obrigada](agradecimento)
+- [obrigado](agradecimento)
+- obrigado!
+- obrigado
+- muito [obrigado](agradecimento)
+- [Obrigado](agradecimento)
+- [valeu](agradecimento)
+- valeu cara!
+- [Valeu](agradecimento)
+- [vlw](agradecimento)
+- [ótimo](agradecimento)
 
 ## intent:bem
 - Estou [feliz](feliz)
@@ -58,21 +69,19 @@
 - [Felicidade](feliz)
 - A [felicidade](feliz) me consome
 - Estou [bem](feliz)
-- estou bem
-- Estou bem
+- estou [bem](feliz)
 - Estou muito [bem](feliz)
 - [felicidade](feliz)
 - estou [animada](feliz)
 - estou [animado](feliz)
-- me sinto muito bem
-- tô muito bem
-- tô bem
-- tô feliz
-- tô [ótima](feliz)
-- tô [ótimo](feliz)
-- tudo ótimo
-- Tudo ótimo
-
+- me sinto muito [bem](feliz)
+- tô muito [bem](feliz)
+- tô [bem](feliz)
+- tô [feliz](feliz)
+- [tô ótima](feliz)
+- [tô ótimo](feliz)
+- [tudo ótimo](feliz)
+- [Tudo ótimo](feliz)
 
 ## intent:triste
 - Estou [triste](triste)
@@ -82,34 +91,35 @@
 - Estou [chorando](triste)
 - Estou [desapontado](triste)
 - [depressão](triste)
-- estou mal
-- Estou mal
-- estou infeliz
-- estou magoado
-- estou desanimado
-- estou frustrado
-- me sinto fracassado
-- sou um fracasso
-- tô muito triste
-- tô triste
-- tô infeliz
-- tô magoado
-- tô frustrado
+- estou [mal](triste)
+- Estou [mal](triste)
+- estou [infeliz](triste)
+- estou [magoado](triste)
+- estou [desanimado](triste)
+- estou [frustrado](triste)
+- me sinto [fracassado](triste)
+- sou um [fracasso](triste)
+- tô muito [triste](triste)
+- tô [triste](triste)
+- tô [infeliz](triste)
+- tô [magoado](triste)
+- tô [frustrado](triste)
 
-## intent:bot_challenge
-- você
-- você é humano?
-- estou falando com um bot?
-- estou falando com um humano?
-
-## intent:testecustom
-- test12
-- karamba
-- rihanna
+## intent:quemsou_bot
+- você é um [bot](quem)?
+- você é [humano](quem)?
+- estou falando com um [bot](quem)?
+- estou falando com um [humano](quem)?
+- com [quem](quem) eu falo?
 
 ## intent:ultimanoticia
 - me informe a última notícia do [site](LINK)
-- me informe a última notícia do site [ifb](LINK)
-- IFB última notícia
-- notícia [IFB](LINK)
+- me informe a ultima noticia do [site](LINK)
+- me informe a última notícia do [ifb](LINK:site)
+- me informe a ultima noticia do [ifb](LINK:site)
+- [ultima noticia](LINK)
+- [última notícia](LINK)
+- [Última noticia](LINK)
+- [IFB](LINK:site) última notícia
+- notícia [IFB](LINK:site)
 - última notícia

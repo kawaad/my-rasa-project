@@ -6,19 +6,19 @@ intents:
   - bem
   - triste
   - agradecer
-  - bot_challenge
-  - buscar
+  - quemsou_bot
   - testecustom
-  - ultimanoticia 
-
+  - ultimanoticia
 entities:
   - triste
   - feliz
+  - agradecer
   - buscar
+  - quem
+  - agradecimento
   - LINK
-
 actions:
-  - testecustom_program
+  - ultima_noticia
   - utter_site
 
 slots:
@@ -29,27 +29,12 @@ templates:
   utter_site:
     - text: "Aqui está a última notícia do IFB {link}\nIsso te ajudou?"
 
-  utter_cont_site:
-    - text: "Ótimo, deseja mais alguma coisa?"
-
-  utter_bem:
-  - text: "Como você está?"
-
   utter_cumprimentar:
-  - text: "Oi, eu sou um chatbot!\nUhuu!\n\n"
+  - text: "Oi, eu sou um chatbot!\nComo posso te ajudar?\n\n"
 
   utter_anime_se:
   - text: "Aqui está algo para animá-lo:"
     image: "https://i.imgur.com/nGF1K8f.jpg"
-
-  utter_triste:
-  - text: "Deixa a tristeza pra lá\n\nAguenta firme, que a vida vai\
-      \ melhorar\n"
-  - text: "Sinto muito =/\n\nSe houver algo em que possa te ajudar\n\nÉ só falar!!\
-      \ =)\n"
-
-  utter_isso_ajudou:
-  - text: "Isso te ajudou?"
 
   utter_disponha:
   - text: "Disponha! :D"
@@ -57,32 +42,20 @@ templates:
   utter_feliz:
   - text: "Ótimo, continue assim!"
 
-  utter_poxa:
-  - text: "Poxa, que pena que eu não pude te ajudar nisso... :(\nMesmo assim, espero que você fique bem!\n"
+  utter_negar:
+  - text: "Tudo bem então... :(\nAté a próxima!\n"
   
   utter_continuar_conversa:
   - text: "E aí, como posso te ajudar?"
 
   utter_continuar_conversa2:
-  - text: "Quer conversar sobre outra coisa?"
-
-  utter_continuar_conversa3:
-  - text: "Gostaria de continuar a nossa conversa ou melhor não?"
-
-  utter_continuar_conversa4:
-  - text: "E aí, qual o nosso próximo assunto?"
+  - text: "Posso te ajudar em algo mais? Pode falar!"
 
   utter_tchau:
-  - text: "Espero ter te ajudado até aqui.\nTchau!"
-  - text: "Espero ter te ajudado até aqui.\nAté mais"
-  - text: "Espero ter te ajudado até aqui.\nAté a próxima!"
+  - text: "Espero ter te ajudado até aqui.\nTchau tchau!"
 
-  utter_tchau2:
-  - text: "Certo então! Espero ter te ajudado até aqui.\nTchau tchau :D"
-  - text: "Tudo bem então, conversamos outra hora...\nEspero ter te ajudado até aqui.\nAté mais!"
-
-  utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+  utter_chatbot:
+  - text: "Sou o IFBot, criado por Katlen e Rodrigo"
 
 session_config:
   session_expiration_time: 60
