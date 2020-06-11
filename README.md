@@ -1,3 +1,3 @@
 # my-rasa-project
 
-Projeto RASA chatbot
+Projeto RASA chatbot inteligente
